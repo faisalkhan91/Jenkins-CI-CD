@@ -131,3 +131,101 @@ cd $HOME
 pwd
 ls
 exit
+ansible -i hosts -m ping test1
+cat $HOME/ansible/
+cat $HOME/ansible/hosts 
+ansible -i hosts -m ping test1
+[WARNING]: Unable to parse /hosts as an inventory source
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the
+implicit localhost does not match 'all'
+ [WARNING]: Could not match supplied host pattern, ignoring: test1
+ansible -i hosts -m ping test1
+ansible
+ansible -i hosts -m ping test1
+ansible -i hosts -m ping remote_host
+ansible -i hosts -m ping test
+ansible -i hosts -m ping localhost
+cat $HOME/ansible/hosts 
+ansible -i hosts -m ping test1
+ansible all --list-hosts
+vim
+vi /etc/ansible/ansible.cfg
+cat /etc/ansible/ansible.cfg
+find ansible.cfg
+exit
+ansible all --list-hosts
+ansible -i hosts -m ping test1
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+cat $HOME/ansible/hosts
+ansible -i $HOME/ansible/hosts -m ping test1
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+cat $HOME/ansible/hosts
+ansible -i $HOME/ansible/hosts -m ping test1
+cat /var/jenkins_home/.ssh/known_hosts
+cat $HOME/ansible/remote-key
+exit
+cat $HOME/ansible/remote-key
+cat $HOME/ansible/hosts 
+ansible -i $HOME/ansible/hosts -m ping test1
+docker --help
+exit
+ansible
+ansible -i hosts -m ping test1
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+ansible
+ansible -i $HOME/ansible/hosts -m ping test1
+ls
+ls
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+ansible -i hosts -m ping test1
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+ansible -i $HOME/ansible/hosts -m ping
+ansible -i $HOME/ansible/hosts -m ping 192.168.160.243
+ansible -i $HOME/ansible/hosts -m ping test1
+ansible all -i tests -m ping
+ansible all -i $HOME/ansible/hosts -m ping
+cat $HOME/ansible/hosts 
+exit
+ping remote_host
+ansible -i hosts -m ping test1
+ansible -i $HOME/ansible/hosts -m ping test1
+cat /var/jenkins_home/.ssh/known_hosts
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+ping remote_host
+exit
+ping remote_host
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
+cd /var/jenkins_home/
+ls
+cd .ansible/
+ls
+ls
+cd tmp/
+ls
+cd ..
+ls
+cd ..
+ls
+cd /
+ls
+vi /var/jenkins_home/.ansible.cfg
+exit
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
