@@ -229,3 +229,5 @@ vi /var/jenkins_home/.ansible.cfg
 exit
 ansible -i $HOME/ansible/hosts -m ping test1
 exit
+ansible -i $HOME/ansible/hosts -m ping test1
+exit
