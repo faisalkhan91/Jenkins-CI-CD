@@ -231,3 +231,23 @@ ansible -i $HOME/ansible/hosts -m ping test1
 exit
 ansible -i $HOME/ansible/hosts -m ping test1
 exit
+cat hosts
+exit
+cd $HOME/ansible/
+ls
+cat play.yml 
+ansible-playbook -i $HOME/ansible/hosts play.yml
+exit
+ansible-playbook -i $HOME/ansible/hosts play.yml
+cd $HOME/ansible/
+ansible-playbook -i $HOME/ansible/hosts play.yml
+exit
+cd
+cd ansible
+ls
+ansible-playbook -i hosts play.yml
+pwd
+ls
+exit
+exit
+exit
