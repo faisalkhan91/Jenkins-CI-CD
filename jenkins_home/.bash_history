@@ -251,3 +251,25 @@ ls
 exit
 exit
 exit
+ssh web
+exit
+ansible -m ping -i hosts web1
+ansible -m ping -i $HOME/ansible/hosts web1
+ansible -m ping -i $HOME/ansible/hosts test1
+exit
+cd $HOME/ansible
+ls
+cat table.j2 
+cat people.yml 
+exit
+ansible-playbook -i $HOME/ansible/hosts people.yml
+ansible-playbook -i $HOME/ansible/hosts $HOME/ansible/people.yml
+exit
+ansible-playbook -i $HOME/ansible/hosts $HOME/ansible/people.yml
+exit
+ansible-playbook -i $HOME/ansible/hosts $HOME/ansible/people.yml -e "PEOPLE_AGE=25"
+cd $HOME/ansible
+ls
+pwd
+ls /var/jenkins_home/ansible/people.yml 
+exit
