@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>jsch</artifactId>
-  <version>0.1.55</version>
+  <version>0.1.55.1</version>
   <packaging>hpi</packaging>
   <name>Jenkins JSch dependency plugin</name>
   <description>Jenkins plugin that brings the JSch library as a plugin dependency, and provides
@@ -14,7 +14,7 @@
   <licenses>
     <license>
       <name>MIT License</name>
-      <url>http://opensource.org/licenses/MIT</url>
+      <url>https://opensource.org/licenses/MIT</url>
     </license>
   </licenses>
   <developers>
@@ -40,10 +40,10 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git@github.com:jenkinsci/jsch-plugin.git</connection>
+    <connection>scm:git:git://github.com/jenkinsci/jsch-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/jsch-plugin.git</developerConnection>
-    <tag>jsch-0.1.55</tag>
-    <url>https://github.com/jenkinsci/jsch-plugin/</url>
+    <tag>jsch-0.1.55.1</tag>
+    <url>https://github.com/jenkinsci/jsch-plugin</url>
   </scm>
   <distributionManagement>
     <repository>
@@ -69,9 +69,9 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>annotations</artifactId>
-      <version>3.0.0</version>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-annotations</artifactId>
+      <version>3.1.12</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -111,8 +111,14 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>access-modifier-annotation</artifactId>
-      <version>1.15</version>
+      <version>1.16</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>annotation-indexer</artifactId>
+          <groupId>org.jenkins-ci</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -132,7 +138,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.1</version>
+        <version>3.6</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

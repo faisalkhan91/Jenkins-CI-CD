@@ -4,16 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>git</artifactId>
-  <version>3.10.0</version>
+  <version>3.11.0</version>
   <packaging>hpi</packaging>
   <name>Jenkins Git plugin</name>
   <description>Integrates Jenkins with GIT SCM</description>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin</url>
+  <url>https://wiki.jenkins.io/display/JENKINS/Git+Plugin</url>
   <inceptionYear>2007</inceptionYear>
   <licenses>
     <license>
       <name>The MIT License (MIT)</name>
-      <url>http://opensource.org/licenses/MIT</url>
+      <url>https://opensource.org/licenses/MIT</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -35,7 +35,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/git-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/git-plugin.git</developerConnection>
-    <tag>git-3.10.0</tag>
+    <tag>git-3.11.0</tag>
     <url>https://github.com/jenkinsci/git-plugin</url>
   </scm>
   <distributionManagement>
@@ -82,7 +82,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>scm-api</artifactId>
-      <version>2.2.6</version>
+      <version>2.6.3</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
@@ -216,7 +216,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.5</version>
+        <version>3.6</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

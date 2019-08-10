@@ -9,13 +9,13 @@ Specification-Title: Jenkins plugin that brings the JSch library as a
          an SSHAuthenticatorFactory for using JSch with the ssh-creden
  tials plugin.
 Implementation-Title: jsch
-Implementation-Version: 0.1.55
+Implementation-Version: 0.1.55.1
 Group-Id: org.jenkins-ci.plugins
 Short-Name: jsch
 Long-Name: Jenkins JSch dependency plugin
 Url: https://wiki.jenkins.io/display/JENKINS/JSch+plugin
 Minimum-Java-Version: 1.8
-Plugin-Version: 0.1.55
+Plugin-Version: 0.1.55.1
 Hudson-Version: 2.60.3
 Jenkins-Version: 2.60.3
 Plugin-Dependencies: ssh-credentials:1.14

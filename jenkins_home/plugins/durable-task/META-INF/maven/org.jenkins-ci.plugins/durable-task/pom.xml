@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>durable-task</artifactId>
-  <version>1.29</version>
+  <version>1.30</version>
   <packaging>hpi</packaging>
   <name>Durable Task Plugin</name>
   <description>Library offering an extension point for processes which can run outside of Jenkins yet be monitored.</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/durable-task-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/durable-task-plugin.git</developerConnection>
-    <tag>durable-task-1.29</tag>
+    <tag>durable-task-1.30</tag>
     <url>https://github.com/jenkinsci/durable-task-plugin</url>
   </scm>
   <distributionManagement>
@@ -34,9 +34,9 @@
   </distributionManagement>
   <dependencies>
     <dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>annotations</artifactId>
-      <version>3.0.0</version>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-annotations</artifactId>
+      <version>3.1.12</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -76,7 +76,19 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>access-modifier-annotation</artifactId>
-      <version>1.15</version>
+      <version>1.16</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>annotation-indexer</artifactId>
+          <groupId>org.jenkins-ci</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -91,7 +103,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>2.6</version>
+        <version>3.5</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

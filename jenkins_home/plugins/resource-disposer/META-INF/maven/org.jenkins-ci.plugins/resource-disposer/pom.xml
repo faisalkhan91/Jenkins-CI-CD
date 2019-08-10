@@ -3,15 +3,15 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>2.15</version>
+    <version>3.29</version>
   </parent>
 
   <artifactId>resource-disposer</artifactId>
-  <version>0.12</version>
+  <version>0.13</version>
   <packaging>hpi</packaging>
   <name>Resource Disposer Plugin</name>
   <description>Dispose resources asynchronously. Utility plugin for resources that require more retries or take a long time to delete.</description>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Resource+Disposer+Plugin</url>
+  <url>https://wiki.jenkins.io/display/JENKINS/Resource+Disposer+Plugin</url>
 
   <developers>
     <developer>
@@ -32,7 +32,7 @@
     <connection>scm:git:git://github.com/jenkinsci/resource-disposer-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/resource-disposer-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/resource-disposer-plugin</url>
-    <tag>resource-disposer-0.12</tag>
+    <tag>resource-disposer-0.13</tag>
   </scm>
 
   <dependencies>
@@ -74,20 +74,20 @@
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
   <properties>
-    <jenkins.version>1.565</jenkins.version>
-    <java.level>6</java.level>
+    <jenkins.version>2.54</jenkins.version>
+    <java.level>8</java.level>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <surefire.useFile>false</surefire.useFile>
