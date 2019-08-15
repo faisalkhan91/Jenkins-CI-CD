@@ -1,0 +1,32 @@
+Started by user [8mha:////4Dcdo4Oe1KL1bHifM3kgWlFwDt/uxIo30Xmcnlnxby2lAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mJenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job-dsl
+using credential git_user
+Cloning the remote Git repository
+Cloning repository http://git:80/jenkins/dsl-jobs.git
+ > git init /var/jenkins_home/workspace/job-dsl # timeout=10
+Fetching upstream changes from http://git:80/jenkins/dsl-jobs.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress http://git:80/jenkins/dsl-jobs.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url http://git:80/jenkins/dsl-jobs.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://git:80/jenkins/dsl-jobs.git # timeout=10
+Fetching upstream changes from http://git:80/jenkins/dsl-jobs.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress http://git:80/jenkins/dsl-jobs.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b8b627c81cdc93f1948c040fb9fec5313e210a4a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b8b627c81cdc93f1948c040fb9fec5313e210a4a
+Commit message: "Added new test git dsl Job"
+First time build. Skipping changelog.
+Processing DSL script jobs
+Added items:
+    GeneratedJob{name='git-job-test-hooks'}
+Existing items:
+    GeneratedJob{name='ansible-users-db-dsl'}
+    GeneratedJob{name='job_dsl_example'}
+    GeneratedJob{name='maven_dsl'}
+Finished: SUCCESS

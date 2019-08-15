@@ -5,6 +5,10 @@
   <fileName>Credential id=git_user name=faisal/******</fileName>
   <usages>
     <entry>
+      <string>job-dsl</string>
+      <ranges>12</ranges>
+    </entry>
+    <entry>
       <string>maven-job</string>
       <ranges>13</ranges>
     </entry>

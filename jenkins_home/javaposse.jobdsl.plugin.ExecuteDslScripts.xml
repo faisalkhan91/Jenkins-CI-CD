@@ -29,5 +29,12 @@
         <digest>c30a8e4fbd68be8da35818aa498dbdbb</digest>
       </javaposse.jobdsl.plugin.SeedReference>
     </entry>
+    <entry>
+      <string>git-job-test-hooks</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>c30a8e4fbd68be8da35818aa498dbdbb</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
   </generatedJobMap>
 </javaposse.jobdsl.plugin.DescriptorImpl>
