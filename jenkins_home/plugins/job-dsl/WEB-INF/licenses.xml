@@ -1,5 +1,5 @@
-<l:dependencies xmlns:l='licenses' version='1.74' artifactId='job-dsl-plugin' groupId='org.jenkins-ci.plugins'>
-  <l:dependency version='1.74' artifactId='job-dsl-plugin' groupId='org.jenkins-ci.plugins' name='Job DSL' url='https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin'>
+<l:dependencies xmlns:l='licenses' version='1.75' artifactId='job-dsl-plugin' groupId='org.jenkins-ci.plugins'>
+  <l:dependency version='1.75' artifactId='job-dsl-plugin' groupId='org.jenkins-ci.plugins' name='Job DSL' url='https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin'>
     <l:description>Jenkins plugin to leverage job-dsl-core to programmatic create jobs from inside Jenkins.</l:description>
     <l:license url='https://www.apache.org/licenses/LICENSE-2.0.txt' name='Apache License, Version 2.0' />
   </l:dependency>

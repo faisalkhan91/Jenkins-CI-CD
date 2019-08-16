@@ -1,3 +1,0 @@
-[submodule "dsl-jobs"]
-	path = dsl-jobs
-	url = http://faisal:asdf1234@192.168.213.150:8090/jenkins/dsl-jobs.git
