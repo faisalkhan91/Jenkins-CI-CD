@@ -284,3 +284,11 @@ cd ..
 ls
 exity
 exit
+docker ps
+ls
+exit
+docker ps
+id
+exit
+docker ps
+exit
