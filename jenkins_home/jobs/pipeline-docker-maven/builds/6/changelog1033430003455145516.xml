@@ -1,0 +1,12 @@
+commit cd40ce5cd2455d23082f5fd9fd8797b3559aa712
+tree b2e1084b6a3782c40d14aa7997ee486c2b44ed69
+parent d0ebda9c1e95d3ebdf9b70563724f1e22b4a4b2f
+author faisalkhan91 <faisalkhan91@outlook.com> 2019-08-29 20:27:23 -0400
+committer faisalkhan91 <faisalkhan91@outlook.com> 2019-08-29 20:27:23 -0400
+
+    Updates the application message
+
+
+
+:100644 100644 5a6d57214d17ba7484046928cf2e933ec550b50a 1855d6dfd078196c840e16e5d375853b60f25ebe M	java-app/src/main/java/com/mycompany/app/App.java
+:100644 100644 908bac851aef9be99dcc57a0efb36dc514d4e5ca 23b1dac10b973bd2e61432cb69bf28789042d324 M	java-app/src/test/java/com/mycompany/app/AppTest.java

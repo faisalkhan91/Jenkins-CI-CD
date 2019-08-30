@@ -1,0 +1,11 @@
+commit d0ebda9c1e95d3ebdf9b70563724f1e22b4a4b2f
+tree cd5d9c9aa0655707959c04fc25589b7e60a1b7f4
+parent d9305f5c1549b10b6552c05b9a5b34a9429bd312
+author faisalkhan91 <faisalkhan91@outlook.com> 2019-08-29 20:03:05 -0400
+committer faisalkhan91 <faisalkhan91@outlook.com> 2019-08-29 20:03:05 -0400
+
+    Changed deploy.sh
+
+
+
+:100755 100755 b0e5e308c9caa6441dd777d48cd94aa252cad48a 5976ded0b9eb036884ae7be58cd6f050c6f065ab M	jenkins/deploy/deploy.sh

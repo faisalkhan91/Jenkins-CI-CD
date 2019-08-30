@@ -292,3 +292,13 @@ id
 exit
 docker ps
 exit
+ls
+ifconfig
+cat /etc/host
+cat /etc/hosts
+exit
+cd /opt/prod 
+exit
+cd /opt/
+ssh -i prod produser@192.168.27.168
+exit

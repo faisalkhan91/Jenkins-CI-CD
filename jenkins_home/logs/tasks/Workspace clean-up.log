@@ -1,5 +1,17 @@
-Started at Sun Jul 28 06:30:56 UTC 2019
+Started at Thu Aug 29 22:40:44 UTC 2019
+Checking ansible-test
+Checking ansible-users-db
+Checking ansible-users-db-dsl
 Checking backup-to-aws
+Checking ENV
+Checking git-job-test-hooks
+Checking job-dsl
+Checking job_dsl_created
+Checking job_dsl_example
+Checking maven-job
+Checking maven_dsl
 Checking my-first-job
+Checking pipeline
+Checking pipeline-docker-maven
 Checking remote-task
-Finished at Sun Jul 28 06:30:56 UTC 2019. 75ms
+Finished at Thu Aug 29 22:40:44 UTC 2019. 13ms
