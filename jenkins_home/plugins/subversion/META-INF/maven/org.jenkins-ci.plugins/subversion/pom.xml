@@ -284,7 +284,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>matrix-auth</artifactId>
-      <version>1.7</version>
+      <version>2.6.6</version>
       <scope>test</scope>
     </dependency>
     <dependency> <!-- TODO pending matrix-auth 2.x, thus Jenkins 2.60.x -->
