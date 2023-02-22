@@ -14,3 +14,5 @@ https://github.com/jenkins-docs/simple-java-maven-app
 The CI/CD pipeline is created to pull the github directory into jenkins workspace for the mavens project to build the project. The project is tested using unit test cases given in the directory and stored at /target/surefile-reports/
 
 CI-CD pipeline defination : https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html
+
+Copyright 2023.
