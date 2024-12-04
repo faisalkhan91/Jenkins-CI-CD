@@ -124,7 +124,7 @@
 		<dependency><!-- Required when testing against core > 1.575 -->
 			<groupId>org.jenkins-ci.plugins</groupId>
 			<artifactId>junit</artifactId>
-			<version>1.13</version>
+			<version>1166.va_436e268e972</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
